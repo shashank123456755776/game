@@ -1,0 +1,67 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+    height: auto; /* Adjusted height to auto */
+    overflow: hidden; /* Added overflow property */
+}
+
+.title {
+    color: white;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px; /* Adjusted margin */
+}
+
+.title span {
+    color: blue;
+    padding-left: 15px;
+}
+
+.reset {
+    width: 200px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    background: goldenrod;
+    font-size: 18px;
+    color: skyblue;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.boxes {
+    display: flex;
+    height: 80px;
+    width: 80px;
+    background-color: salmon;
+    border: 4px solid brown;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: auto;
+}
+
+.row1,
+.row2,
+.row3 {
+    display: flex;
+}
+
+.winner-message{
+    color: black;
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+
+
